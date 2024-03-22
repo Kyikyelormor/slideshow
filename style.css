@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main { 
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    /* transition: 2s ease-in-out; */
+    animation: slideshow 2s ease-in-out infinite forwards;
+}
+main nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+button {
+    background: beige;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+button:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+.right img {
+    transform: rotate(180deg);
+}
